@@ -14,4 +14,6 @@ return [
             'linkAssets' => true,
         ],
     ],
+    'language'=>'zh-CN',
+    'timeZone'=>'Asia/Shanghai',
 ];

@@ -9,5 +9,9 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'assetManager' => [
+            // https://stackoverflow.com/questions/24819220/yii2-assets-clear-cache
+            'linkAssets' => true,
+        ],
     ],
 ];

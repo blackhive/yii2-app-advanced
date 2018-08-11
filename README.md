@@ -11,8 +11,7 @@
 
 1. 更换 composer 仓库地址为中国镜像源
 2. 更换 bower 包为 npm 包
-
-项目依赖 Node.js, 需要安装 yarn 并配合淘宝镜像源使用。
+3. 项目依赖 Node.js, 需要安装 yarn 并配合淘宝镜像源使用。
 
 ```shell
 composer create-project --prefer-dist blackhive/yii2-app-advanced app
